@@ -13,12 +13,12 @@
 ![alt text](../Images/image1.png)
 
 #### 2. Static Arrays
-- Arrays are considered the most simple data structure
+- Static arrays are fixed size
+- Read/Write i-th element is O(1)
+  - Index of array is mapped to a location in memory making reading or writing data possible in constant time
+- Insert/Remove end element is O(1)
+  - Arrays are contiguous and its elements can be accessed with indexing which makes inserting or removing the end element possible in constant time
+- Insert/Remove middle element is O(n)
+  - The worst case is O(n) because we might need to shift every value in the array
 
-<center>
-
-| Operation | Testing |
-|-----------|---------|
-| Testing   | Testing |
-
-</center>
+#### 3. Dynamic Array
