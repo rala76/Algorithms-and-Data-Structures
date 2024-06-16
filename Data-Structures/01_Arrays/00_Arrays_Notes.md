@@ -22,3 +22,6 @@
   - The worst case is O(n) because we might need to shift every value in the array
 
 #### 3. Dynamic Array
+- Default in Python and JavaScript
+- Operations: Push, Pop, 
+- Pointer for last element of dynamic array (used for operations)
