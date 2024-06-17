@@ -11,6 +11,7 @@
 - Characters take 1 byte (8 bits) to store in memory
 
 ![alt text](../Images/image1.png)
+![alt text](../Images/image2.png)
 
 #### 1. Static Array
 - Static arrays are fixed size
@@ -20,6 +21,9 @@
   - Arrays are contiguous and its elements can be accessed with indexing which makes inserting or removing the end element possible in constant time
 - Insert/Remove middle element is O(n)
   - The worst case is O(n) because we might need to shift every value in the array
+
+![alt text](../Images/image3.png)
+![alt text](../Images/image4.png)
 
 #### 2. Dynamic Array
 
@@ -31,7 +35,7 @@
   - We double the size of the original array as a middle ground to not having to allocate every single time the dynamic array needs to expand and allocating too much empty space which takes up a large amount of memory
   - Expanding the dynamic array by doubling the orginal array when running out of space actually has a time complexity of O(n) but this happens infrequently, so we can say that the amortized time complexity is O(1), which can be thought of as the average time taken per operation
     - **Amortized Time Comlpexity**, which is the way to express the time complexity when an algorithm has the very bad time complexity only once in a while besides the time complexity that happens most of time
-    - **Power Series**
+    - Why double the capacity? **Power Series**
   - Read/Write i-th element is O(1)
   - Insert/Remove end element is O(1)
   - Insert/Remove middle element is O(n)
