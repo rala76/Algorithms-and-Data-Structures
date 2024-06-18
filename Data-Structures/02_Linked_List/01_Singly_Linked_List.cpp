@@ -6,7 +6,7 @@ public:
     int val;
     ListNode* next = nullptr;
 
-    // Constructor
+    // Constructors
     ListNode() {}
     ListNode(int val) {
         this->val = val;
