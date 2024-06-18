@@ -1,11 +1,11 @@
 #include <iostream>
 
 class DynamicArray {
-public:
+private:
     int capacity = 0;
     int length = 0;
     int* arr;
-
+public:
     // Constructor
     DynamicArray(int capacity) {
         this->capacity = capacity;
