@@ -1,10 +1,12 @@
 #include <iostream>
 
 int fibonacci(int n) {
+    // Base Case
     if (n <= 1) {
         return n;
     }
 
+    // Recursive step
     return fibonacci(n-1) + fibonacci(n-2);
 }
 
