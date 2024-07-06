@@ -14,7 +14,7 @@ void selectionSort(vector<int>& arr, int n) {
             }
         }
 
-        // Move the minimum value to the fron of the unsorted part of array
+        // Move the minimum value to the front of the unsorted part of array
         if (min != i) {
             std::swap(arr[i], arr[min]);
         }
