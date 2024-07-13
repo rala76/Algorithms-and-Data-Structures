@@ -45,7 +45,7 @@ void removeMiddle(int arr[], int i, int& length) {
     }
     
     // Remove arr[i]
-    arr[i] = 0;
+    arr[length - 1] = 0;
     
     // Decrease length by 1
     length -= 1;
@@ -98,8 +98,8 @@ int main() {
     printArr(arr6, capacity);
     std::cout << std::endl;
 
-    std::cout << "Remove '4' at index 3: " << std::endl;
-    removeMiddle(arr6, 3, length);
+    std::cout << "Remove '2' at index 1: " << std::endl;
+    removeMiddle(arr6, 1, length);
     printArr(arr6, capacity);
     std::cout << std::endl;
     

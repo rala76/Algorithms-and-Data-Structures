@@ -12,6 +12,16 @@ public:
         arr = new int[capacity];
     }
 
+    // Return number of elements in the dynamic array
+    int getSize() {
+        return length;
+    }
+    
+    // Return capacity of the dynamic array
+    int getCapacity() {
+        return capacity;
+    }
+
     // Get value at i-th index
     int get(int i) {
         return arr[i];
@@ -49,16 +59,6 @@ public:
 
         delete[] arr;
         arr = newArr;
-    }
-
-    // Return number of elements in the dynamic array
-    int getSize() {
-        return length;
-    }
-    
-    // Return capacity of the dynamic array
-    int getCapacity() {
-        return capacity;
     }
 };
 

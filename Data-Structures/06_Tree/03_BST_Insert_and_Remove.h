@@ -17,7 +17,7 @@ TreeNode* insert(TreeNode* root, int val) {
     return root;
 }
 
-// Return the minimum value node of the BST.
+// Return the minimum value node of the BST
 TreeNode* minValueNode(TreeNode* root) {
     TreeNode* curr = root;
 
@@ -28,7 +28,7 @@ TreeNode* minValueNode(TreeNode* root) {
     return curr;
 }
 
-// Remove a node and return the root of the tree.
+// Remove a node and return the root of the tree
 TreeNode* remove(TreeNode* root, int val) {
     if (!root) {
         return nullptr;
